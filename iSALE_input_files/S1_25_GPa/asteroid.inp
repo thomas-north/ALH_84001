@@ -1,0 +1,55 @@
+#ISINP
+----------- General Model Info -----------------------------------------------
+VERSION       __DO NOT MODIFY__             : 4.1
+DIMENSION     dimension of input file       : 2
+PATH          Data file path                : ./SimFolder/
+MODEL         Modelname                     : S1_newmodern_25GPa
+----------- Mesh Geometry Parameters -----------------------------------------
+GRIDH         horizontal cells              : 0           : 1024        : 0
+GRIDV         vertical cells                : 0           : 3072        : 0
+GRIDSPC       grid spacing                  : 2.86D-6
+----------- Global Setup Parameters ------------------------------------------
+S_TYPE        setup type                    : IMPRT_GEOM
+ALE_MODE      ALE modus                     : EULER
+T_SURF        Surface temp                  : 293.D0
+GRAD_TYPE     gradient type                 : NONE
+CYL           Cylind. geometry              : 0.0D0
+----------- Projectile Parameters --------------------------------------------
+OBJNUM        number of proj.               : 1
+OBJRESH       CPPR horizontal               : 1536
+OBJVEL        object velocity               : 0.0D0
+OBJMAT        object material               : VOID___
+OBJTYPE       object type                   : PLATE
+COL_SITE      collision site                : 2304
+VEL_CUT       cutoff velocity               : 6.0D3
+----------- Target Parameters ------------------------------------------------
+LAYNUM        number of layers              : 0
+----------- Time Parameters --------------------------------------------------
+DT            initial time increment        : 1.0D-11
+DTMAX         maximum timestep              : 1.0D-8
+TEND          end time                      : 1.2D-6
+DTSAVE        save interval                 : 1.0D-8
+----------- Boundary Conditions ----------------------------------------------
+BND_L         left                          : FREESLIP
+BND_R         right                         : FREESLIP
+BND_B         bottom                        : OUTFLOW
+BND_T         top                           : OUTFLOW
+----------- Numerical Stability Parameters -----------------------------------
+AVIS          art. visc. linear             : 0.24D0
+AVIS2         art. visc. quad.              : 1.2D0
+----------- Ac. Fluid. Parameters (read in read_material) --------------------
+CVIB          c_vib                         : 0.1D0
+TOFF          toff                          : 16.D0
+VIB_MAX       Max. vib.vel.                 : 200.D0
+----------- Data Saving Parameters -------------------------------------------
+QUALITY       Compression rate              : -50
+VARLIST       List of variables             : #Den-Tmp-Pre-Sie-Yld-Dam-VEL-Sxx-Syy#
+------------------- Tracer Particle Parameters -------------------------------
+TR_QUAL       Save tracer                   : 1
+TR_MOTION     Tracer movement alg.          : MATERIAL
+TR_AREA       Area for tracers              : 0           : 1024        : 768         : 1536
+TR_VAR        add. tracer fiels             : #TrP-TrT-Trp-Trt-TrM#
+-------------------- Control Parameters --------------------------------------
+STRESS        calc_stress                   : 1
+------------------------------------------------------------------------------
+<<END

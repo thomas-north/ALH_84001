@@ -1,0 +1,36 @@
+#ISMAT
+--------------------------------------------------------------------------------------------------
+MATNAME       Material name                 : matter1     : matter2     : matter3     : matter4
+--------------------------------------------------------------------------------------------------
+EOSNAME       EOS name                      : chromit     : calcite     : gabbro1     : dunite_
+EOSTYPE       EOS type                      : tillo       : aneos       : tillo       : aneos
+STRMOD        Strength model                : VNMS        : ROCK        : ROCK        : ROCK
+DAMMOD        Damage model                  : NONE        : IVANOV      : IVANOV      : IVANOV
+THSOFT        Thermal softening             : OHNAKA      : OHNAKA      : OHNAKA      : OHNAKA
+LDWEAK        Low density weakening         : POLY        : POLY        : POLY        : POLY
+--------------------------------------------------------------------------------------------------
+ANETABLE      ANEOS table mode              : xxxxxxxxxx  : MAKE        : xxxxxxxxxx  : MAKE
+ANEVARS       ANEOS Table vars              : xxxxxxxxxx  : TmpDen      : xxxxxxxxxx  : TmpDen
+ANENT         ANEOS temp nodes              : xxxxxxxxxx  : 120         : xxxxxxxxxx  : 120
+ANEND         ANEOS dens nodes              : xxxxxxxxxx  : 240         : xxxxxxxxxx  : 240
+--------------------------------------------------------------------------------------------------
+POIS          pois                          : 2.5000D-01  : 2.5000D-01  : 2.5000D-01  : 2.5000D-01
+PMININ        minimum pressure              : -1.000D+08  : xxxxxxxxxx  : xxxxxxxxxx  : xxxxxxxxxx
+TMELT0        tmelt0                        : 2.1440D+03  : 1.6120D+03  : 1.5130D+03  : 1.3730D+03
+TFRAC         tfrac                         : 1.2000D+00  : 1.2000D+00  : 1.1000D+00  : 1.2000D+00
+ASIMON        a_simon                       : 2.4250D+10  : 1.0000D+09  : 1.8400D+09  : 1.5200D+09
+CSIMON        c_simon                       : 2.1110D+00  : 6.6000D+00  : 7.2700D+00  : 4.0500D+00
+--------------------------------------------------------------------------------------------------
+YINT0         yint0                         : 1.8800D+07  : 5.0000D+07  : 3.1900D+07  : 5.0700D+07
+--------------------------------------------------------------------------------------------------
+FRICINT       fricint                       : 1.2000D+00  : 2.0000D+00  : 1.1000D+00  : 1.5800D+00
+YLIMINT       ylimint                       : 2.3000D+09  : 6.5000D+08  : 2.4700D+09  : 3.2600D+09
+YDAM0         ydam0                         : 1.0000D+04  : 1.0000D+05  : 1.0000D+04  : 1.0000D+04
+FRICDAM       fricdam                       : 0.7000D+00  : 8.0000D-01  : 7.1000D-01  : 6.3000D-01
+YLIMDAM       ylimdam                       : 2.3000D+09  : 6.5000D+08  : 2.4700D+09  : 3.2600D+09
+--------------------------------------------------------------------------------------------------
+IVANOV_A      Damage parameter              : xxxxxxxxxx  : 1.0000D-04  : 1.0000D-04  : 1.0000D-04
+IVANOV_B      Damage parameter              : xxxxxxxxxx  : 1.0000D-11  : 1.0000D-11  : 1.0000D-11
+IVANOV_C      Damage parameter              : xxxxxxxxxx  : 3.0000D+08  : 3.0000D+08  : 3.0000D+08
+--------------------------------------------------------------------------------------------------
+<<END
